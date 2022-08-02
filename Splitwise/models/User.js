@@ -43,7 +43,6 @@ class User {
         user.phone = phone;
         return user;
     }
-
 }
 
 module.exports.User = User

@@ -5,7 +5,6 @@ class User {
     #phone
 
     static USER_ID = 0;
-     
     constructor(){
         this.#id = ++User.USER_ID;
     }

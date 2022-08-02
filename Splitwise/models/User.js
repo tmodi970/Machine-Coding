@@ -35,7 +35,6 @@ class User {
         return this.#phone = phone;
     }
 
-
     static createUser(name , email , phone){
         var user = new User();
         user.name = name;
